@@ -16,6 +16,13 @@ const Header = () => {
                         className="flex items-center text-white px-3 font-bold hover:bg-yellow-100 hover:text-orange-500">
                         BOOK
                     </Link>
+                    <span className="flex space-x-2">
+                    <Link 
+                        to="/signin" 
+                        className="flex items-center text-white px-3 font-bold hover:bg-yellow-100 hover:text-orange-500">
+                        Sign in
+                    </Link>
+                </span>
                 </span>     
             </div>
         </div>
