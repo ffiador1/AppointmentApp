@@ -1,9 +1,9 @@
-import React from 'react';
+//import React from 'react';
 import { Link } from "react-router-dom";
 
 const Header = () => {
     return (
-        <div className=" bg-orange-400 py-6 px-20 ">
+        <div className=" bg-orange-400 py-6 ">
             <div className="container mx-auto flex justify-between">
                 <span className="text-3xl text-white font-bold tracking-tight">
                     <Link to="/">
